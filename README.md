@@ -2,6 +2,8 @@
 
 > A playground to test and learn how Paxos work
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manuskc/toy-paxos/blob/main/Toy%20Paxos.ipynb)
+
 Distributed system architecture is an essential framework of many modern day applications, enabling them with scalability, fault tolerence, and high-performance. While these advantages as evident, designing a distributed system presents challenges, Achieving consensus among multiple nodes on a specific value or decision is one such crucial challenge. From synchronizing an online multiplayer game to powering blockchains for cryptocurrencies, consensus  is needed everywhere to guarantee consistency. 
 
 Here we will try to uncover an algorithm that laid the foundation for achieving consensus in distributed systems: Paxos. We will present you a simple implementation of Paxos that helps you script scenarios of systems trying to achieve consensus and see how Paxos make decision at every  stage of protocol to give a deeper understanding of the system.
